@@ -16,7 +16,8 @@ import cloudImg from "./assets/cloud.png";
 import sample1 from "./assets/sample1.mp4";
 import sample2 from "./assets/sample2.mp4";
 import sample3 from "./assets/sample3.mp4";
-import sample4 from "./assets/sample4.mp4";
+
+import { FaRegPlayCircle } from "react-icons/fa";
 
 export const courses = [
 	{
@@ -181,7 +182,34 @@ export const courseDetails = {
 			{
 				id: 1,
 				name: "Introduction to Programme",
+				icon: <FaRegPlayCircle className="text-2xl"/>,
 				vid: sample1,
+				type: "video",
+				duration: "30 mins"
+			},
+			{
+				id: 2,
+				name: "Variables and Data Types",
+				icon: <FaRegPlayCircle className="text-2xl"/>,
+				vid: sample2,
+				type: "video",
+				duration: "45 mins"
+			},
+			{
+				id: 3,
+				name: "Control Flow",
+				icon: <FaRegPlayCircle className="text-2xl"/>,
+				vid: sample3,
+				type: "video",
+				duration: "1 hour"
+			},
+			{
+				id: 4,
+				name: "Functions",
+				icon: <FaRegPlayCircle className="text-2xl"/>,
+				vid: sample1,
+				type: "video",
+				duration: "20 mins"
 			},
 		],
 	},
